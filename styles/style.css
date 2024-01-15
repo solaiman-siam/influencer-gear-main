@@ -42,6 +42,10 @@ nav {
   padding-top: 40px;
 }
 
+.menu-icon, .card-icon{
+  display: none;
+}
+
 .company-name {
   color: var(--Primary-color);
   font-size: 1.5rem;
@@ -188,6 +192,8 @@ ul li a img {
 .card-ratting {
   display: flex;
   gap: 2px;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 .card-ratting img {
@@ -200,7 +206,6 @@ ul li a img {
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1px;
-  padding-bottom: 5px;
 }
 
 .card .country,
